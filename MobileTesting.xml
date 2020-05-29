@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="Demo">
+        <classes>
+            <class name="org.example.demo1">
+                <methods>
+
+                </methods>
+            </class> <!-- cases.BrowserTest3 -->
+
+        </classes>
+    </test> <!-- Demo -->
+</suite> <!-- Default Suite -->
