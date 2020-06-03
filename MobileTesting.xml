@@ -7,8 +7,8 @@
                 <methods>
 
                 </methods>
-            </class> <!-- cases.BrowserTest3 -->
+            </class>
 
         </classes>
-    </test> <!-- Demo -->
-</suite> <!-- Default Suite -->
+    </test>
+</suite>
