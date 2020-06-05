@@ -22,7 +22,7 @@ class BaseSearchPage extends BaseBasePage {
     {
 
         try{
-            Thread.sleep(5000);
+            Thread.sleep(15000);
         }catch (Exception e)
         {
             e.printStackTrace();
