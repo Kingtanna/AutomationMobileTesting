@@ -22,6 +22,12 @@ class BaseSearchPage extends BaseBasePage {
     {
         //MobileElement el2 = (MobileElement) driver.findElementById("com.xueqiu.android:id/search_input_text");
         MobileElement el2 = FindElement(_searchInputText);
+        try{
+            Thread.sleep(3000);
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
         el2.sendKeys(str);
     }
 

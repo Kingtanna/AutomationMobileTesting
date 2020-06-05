@@ -5,7 +5,7 @@
         <classes>
             <class name="org.example.demo1">
                 <methods>
-
+                    <include name="sampleTest" />
                 </methods>
             </class>
 
