@@ -20,14 +20,16 @@ class BaseSearchPage extends BaseBasePage {
 
     public void Search(String str)
     {
-        //MobileElement el2 = (MobileElement) driver.findElementById("com.xueqiu.android:id/search_input_text");
-        MobileElement el2 = FindElement(_searchInputText);
+
         try{
-            Thread.sleep(3000);
+            Thread.sleep(5000);
         }catch (Exception e)
         {
             e.printStackTrace();
         }
+        //MobileElement el2 = (MobileElement) driver.findElementById("com.xueqiu.android:id/search_input_text");
+        MobileElement el2 = FindElement(_searchInputText);
+
         el2.sendKeys(str);
     }
 
